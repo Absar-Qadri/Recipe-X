@@ -1,0 +1,126 @@
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  }
+  .nav-center{
+    width: 90vw;
+    max-width: 1120px;
+    margin: 0;
+    }
+    .nav-logo img
+    {
+      width: 200px;
+    }
+@media(max-width:992px){
+
+  .nav-header
+  {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .nav-logo{
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-links
+  {
+    display: flex;
+    flex-direction: column;
+    height: 0;
+    transition: 0.3s;
+    overflow: hidden;
+    margin-top: 2rem;
+  }
+  .show-links{
+    height: 310px;
+  }
+  .nav-link{
+   
+    color: rgb(111, 107, 107);
+    text-decoration: none;
+    padding: 16px;
+    border-top: 1px solid rgb(111, 107, 107);
+    text-align: center;
+    transition: color 0.3s;
+  }
+  .nav-link-contact-btn {
+    border-top: 1px solid rgb(111, 107, 107);
+    padding: 1rem;
+  }
+
+}
+
+.nav-btn , .contact-btn
+{   
+    background-color: #645cff;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 4px 12px;
+}
+.nav-link-contact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link:hover{
+  color: #645cff;;
+}
+.contact-btn{
+  padding: 8px;
+  transition: background-color 0.15s;
+}
+.contact-btn:hover{
+  background-color:rgb(47, 42, 147) ;
+}
+@media(min-width:992.1px){
+  .nav-center{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+  .nav-links{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    
+  }
+  .nav-link{
+    text-decoration: none;
+    text-align: center;
+    margin: 12px;
+    text-align: center;
+    vertical-align: center;
+    transition: 0.3s;
+
+  }
+  .nav-link-contact-btn{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    margin: 0;
+  }
+.nav-btn{
+  height: 0;
+  width: 0;
+  padding: 0;
+}
+}
+.contact-btn{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}

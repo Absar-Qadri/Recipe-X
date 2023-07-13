@@ -1,0 +1,19 @@
+.page-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(45, 43, 43);
+    color: white;
+    height: 4rem;
+    margin-top: 50px;
+}
+.footer-logo{
+    color: rgb(71, 71, 225);
+}
+.author a{
+    text-decoration: none;
+    color: rgb(71, 71, 225);
+    font-weight: bold;
+
+}
